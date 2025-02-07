@@ -7,3 +7,4 @@ Projetos, atividades e provas feitas no quarto semestre de Analise e Desenvolvim
 - Desenvolvimento de Sistemas Web
 - Estatística e Probabilidade
 - Projeto Integrador IV
+- Gerenciamento de Projetos
