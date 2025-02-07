@@ -1,4 +1,4 @@
-# TADS4S
+# TADS.4S
 Projetos, atividades e provas feitas no quarto semestre de Analise e Desenvolvimento de Sistemas
 
 ## Disciplinas do Semestre:
