@@ -1,26 +1,13 @@
-public class Funcionario extends PessoaFisica{
-
-    int matricula;
-
-    public Funcionario(String nome, int cpf, int matricula) {
-        super(nome, cpf);
-        this.matricula = matricula;
+public class Funcionario implements Observadores {
+    
+    private String nome;
+    
+    public Funcionario(String nome) {
+        this.nome = nome;
     }
-
-    public int getMatricula() {
-        return matricula;
-    }
-
-    public void setMatricula(int matricula) {
-        this.matricula = matricula;
-    }
-
+    
     @Override
-    public String toString() {
-        return "Funcionario {" +
-                "nome= " + getNome() +
-                " | cpf= " + getCpf() +
-                " | matricula=" + matricula +
-                '}';
+    public void atualizar(String mensagem) {
+        System.out.println("Funcionário " + nome + " (" + cargo + "): " + mensagem);
     }
 }
